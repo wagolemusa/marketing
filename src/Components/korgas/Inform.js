@@ -33,20 +33,18 @@ const Inform = () => {
                 }
             })
             .catch((err) => {
-                    console.log(err.response.data)
-                    if (err && err.response) setError(err.response.data.message);
-                    setSuccess(null);
-                });
+                console.log(err.response.data)
+                if (err && err.response) setError(err.response.data.message);
+                setSuccess(null);
+                    });
 
-            if (response && response.data) {
-                setError(null);
-                setSuccess(response.data.message);
-            }
-            if (response.status === 201) {
-                window.location = "https://korgasgroup.com"
-             
-            }
-
+                if (response && response.data) {
+                    setError(null);
+                    setSuccess(response.data.message);
+                }
+                if (response.status === 201) {
+                    window.location.replace("https://korgasgroup.com/")
+                }
             if (response?.data?.errors) {
                 const messages = response.data.errors.map(item => item.msg)
 
