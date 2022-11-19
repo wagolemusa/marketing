@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #F2F2F2;
+}
+
+.products{
+  position: absolute;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 5px 8px 0 rgb(0 0 0 / 20%), 0 9px 26px 0 rgb(0 0 0 / 19%);
+  padding: 5%;
+
+}
+
+
+
+.main {
+  display: block;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Hide the default checkbox */
+input[type=checkbox] {
+  visibility: hidden;
+}
+
+/* Creating a custom checkbox
+based on demand */
+.geekmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #686565;
+}
+
+
+
+/* Specify the background color to be
+shown when checkbox is active */
+.main input:active ~ .geekmark {
+  background-color: red;
+}
+
+/* Specify the background color to be
+shown when checkbox is checked */
+.main input:checked ~ .geekmark {
+  background-color: green;
+}
+
+/* Checkmark to be shown in checkbox */
+/* It is not be shown when not checked */
+.geekmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Display checkmark when checked */
+.main input:checked ~ .geekmark:after {
+  display: block;
+}
+
+/* Styling the checkmark using webkit */
+/* Rotated the rectangle by 45 degree and 
+showing only two border to make it look
+like a tickmark */
+.main .geekmark:after {
+  left: 8px;
+  bottom: 5px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 4px 4px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.cardinfo {
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.products img{
+  padding-left: 20px;
+  width: 100px;
+}
+
+.next {
+  background-color: #e20f0f;
+  border: none;
+  color: white;
+  padding: 12px;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  /* width: 100%; */
+  
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.primary {
+  background-color: #e20f0f;
+  border: none;
+  color: white;
+  padding: 12px;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+  
+  border-radius: 6px;
+  font-weight: bold;
+}
+.suc {
+  color: #54B4D3;
+}
+.err {
+  color: red;
+  font-size: 18px;
+}
+
+.notice {
+  color: red;
+  font-size: 16px; 
+}
+@media screen and (max-width: 768px){
+  .products{
+      /* margin-top: 5%; */
+      margin-bottom: 5%;
+      max-width: 80%;
+  }
+  .cardinfo {
+    padding-left: 30px;
+    padding-right: 50px;
+  }
+  .products p{
+    font-size: 18px;
+    font-weight: 600;
+
+  }
+  .products span {
+    color: red;
+  }
+  .questions h2{
+
+    font-size: 17px;
+    font-size: 500;
+  
+  }
+  .main {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .form-sec h4 {
+    font-size: 18px;
+    color: red;
+    font-weight: 600;
+  }
+  .form-sec h3 {
+    font-size: 18px;
+    color: #3437ec;
+    font-weight: 600;
+  }
+  .suc {
+    color: #3437ec;
+  }
+  .err {
+    color: red;
+    font-size: 16px;
+  }
+  
+  .notice {
+    color: red;
+    font-size: 16px; 
+  }
+}
