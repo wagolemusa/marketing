@@ -43,7 +43,7 @@ const Inform = () => {
                 setSuccess(response.data.message);
             }
             if (response.status === 201) {
-                window.location.replace("/https://korgasgroup.com")
+                window.location = "https://korgasgroup.com"
              
             }
 
