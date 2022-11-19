@@ -35,7 +35,7 @@ const Korgas = () => {
 
                             </center>
                             <br/>
-                            <p>Win! Win! Big christmas Offer from <span>KORGAS</span><br/>
+                            <p><span>Win! Win! </span>Big christmas Offer from <span>KORGAS</span><br/>
                             We have 50,000 cylinders in our store to WIN. just by asnwering 4 questions
                             </p>
                             {PageDisplay()}
