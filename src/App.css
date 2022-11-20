@@ -136,6 +136,9 @@ like a tickmark */
   color: red;
   font-size: 16px; 
 }
+.questions  span{
+  color: red;
+}
 @media screen and (max-width: 768px){
   
   .cardinfo {

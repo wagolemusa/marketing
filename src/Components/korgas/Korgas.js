@@ -12,13 +12,13 @@ const Korgas = () => {
 
     const PageDisplay = () => {
         if (page === 0) {
-            return <Question1 />
-        } else if (page === 1) {
-            return <Question2 />
-        } else if (page === 2) {
-            return <Question3 />
-        } else if(page === 3){
             return <Question4 />
+        } else if (page === 1) {
+            return <Question3 />
+        } else if (page === 2) {
+            return <Question2 />
+        } else if(page === 3){
+            return <Question1 />
         } else {
             return <Inform />
         }

@@ -5,7 +5,7 @@ const Question1 = () => {
         <>
                
         <div className="questions">
-            <h2> 1) Check atleast four steps taken when lighting a gas cylinder.</h2>
+            <h2> <span>1) </span>Check atleast four steps taken when lighting a gas cylinder.</h2>
       </div>
       <hr/>
                 <div className="main">

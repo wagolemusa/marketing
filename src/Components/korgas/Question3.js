@@ -4,7 +4,7 @@ const Question3 = () => {
     return (
         <>
             <div className="questions">
-                <h2> 3) How can you notice that the gas cylinder is leaking or not closed properly</h2>
+                <h2> <span>3) </span> How can you notice that the gas cylinder is leaking or not closed properly</h2>
              </div>
              <hr/>
 

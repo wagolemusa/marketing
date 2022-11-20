@@ -4,7 +4,7 @@ const Question2 = () => {
     return (
         <>
         <div className="questions">
-        <h2> 2) Check down the steps to be taken on how to handle a gas cylinder</h2>
+        <h2> <span>2) </span>Check down the steps to be taken on how to handle a gas cylinder</h2>
 
         </div>
         <hr/>

@@ -5,7 +5,7 @@ const Question4 = () => {
         <>
                
         <div className="questions">
-            <h2> 4) What is the  immediate things you can do incase of  gas cylinder bursting</h2>
+            <h2><span>4) </span> What is the  immediate things you can do incase of  gas cylinder bursting</h2>
       </div>
       <hr/>
                 <div className="main">
