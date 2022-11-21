@@ -4,7 +4,7 @@ import Question1 from "./Question1";
 import Question2 from "./Question2";
 import Question3 from "./Question3";
 import Question4 from "./Question4";
-import Korga2 from './Korga2.png'
+import k1 from './k1.png'
 
 
 const Korgas = () => {
@@ -30,10 +30,16 @@ const Korgas = () => {
 
                     <div className="cardinfo">
                         <div className="products">
-                            <center>
-                            <img src={Korga2} alt="" />
+                           <div className="row">
+                            <div className="col">
+                            <img src={k1} alt="" />
+                            </div>
+                            <div className="col">
+                            <img src={k1} alt="" />
+                            </div>
+                           </div>
 
-                            </center>
+                            
                             <br/>
                             <p><span>Win! Win! </span>Big christmas Offer from <span>KORGAS</span><br/>
                             We have 50,000 cylinders in our store to WIN. just by asnwering 4 questions

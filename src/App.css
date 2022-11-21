@@ -86,7 +86,7 @@ like a tickmark */
 
 .products img{
   padding-left: 20px;
-  width: 100px;
+  width: 150px;
 }
 
 .next {
@@ -194,6 +194,10 @@ like a tickmark */
        /* padding: 3%; */
        max-width: 90%;
   
+  }
+  .products img{
+    padding-left: 20px;
+    width: 100px;
   }
  
 }
