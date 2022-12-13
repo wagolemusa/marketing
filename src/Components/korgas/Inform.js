@@ -26,7 +26,7 @@ const Inform = () => {
             town
         }
 
-        const response = await axios.post("https://ultimatebackend.herokuapp.com/api/korgas", dataForm, {
+        const response = await axios.post("https://blockgold.onrender.com/api/korgas", dataForm, {
             headers: {
                  'Accept': 'application/json',
                 'Content-Type': 'application/json'
